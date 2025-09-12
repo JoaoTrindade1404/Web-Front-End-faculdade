@@ -1,0 +1,56 @@
+body {
+  background: #eeaeca;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  padding: 0px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.link {
+  font-family: "Roboto";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  color: black;
+}
+
+#nome {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: underline;
+  color: black;
+}
+
+#resumo {
+  font-family: "Rubik";
+  font-style: oblique;
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
+}
+
+.link:hover {
+  color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rotulo {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  color: black;
+  background-color: rgb(0, 255, 255);
+}
